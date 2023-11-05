@@ -1,0 +1,138 @@
+$color_1: #333;
+$color_2: #888;
+$color_3: #e74c3c;
+$color_4: gold;
+$color_5: rgb(135, 132, 132);
+$color_6: #2980b9;
+$background-color_1: #F8C8DC;
+$color_7: #ff3f6c;
+
+/* Styles for cards and image */
+/* Styles for the pop-up window */
+/* Styles for the rating value and stars */
+/* Styles for description window */
+/* Styles for size pop up */
+.custom-img {
+	width: 100%;
+	height: 70%;
+	object-fit: fill;
+}
+.card {
+	height: 30rem;
+	width: 18rem;
+}
+.description-popup {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: $background-color_1;
+	color: $color_1;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	z-index: 9999;
+	max-width: 80%;
+}
+.close {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	font-size: 24px;
+	cursor: pointer;
+	color: $color_2;
+	&:hover {
+		color: $color_3;
+	}
+}
+.close1 {
+	&:hover {
+		color: $color_3;
+	}
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	font-size: 24px;
+	cursor: pointer;
+	color: $color_2;
+}
+.description-popup-content {
+	h2 {
+		font-size: 1.5em;
+		color: $color_1;
+	}
+}
+.card-price {
+	margin-right: 3.1rem;
+}
+.price-rating {
+	margin-bottom: 10px;
+}
+.rating-value {
+	margin-left: 5px;
+	margin-top: 10rem;
+}
+.star-filled {
+	color: $color_4;
+}
+.star-half {
+	color: $color_4;
+}
+.star-unfilled {
+	color: $color_5;
+}
+.description-img {
+	width: 40%;
+	height: 20rem;
+	float: right;
+}
+.returns {
+	text-align: center;
+	padding-top: 10px;
+	color: $color_6;
+}
+.popup {
+	position: fixed;
+	z-index: 9999;
+	top: 30%;
+	left: 50%;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	background-color: $background-color_1;
+}
+.popup-content {
+	background-color: $background-color_1;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 10px;
+	h2 {
+		margin-bottom: 10px;
+	}
+	.size-selection {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+}
+
+.success {
+	background-color: #59cd5d;
+	position: fixed;
+	top: 15%;
+	left: 70%;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	z-index: 99999;
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.error {
+	color: $color_7;
+	position: fixed;
+	top: 56%;
+	left: 57%;
+	z-index: 99999;
+}

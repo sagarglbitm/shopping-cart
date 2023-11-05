@@ -1,0 +1,217 @@
+// #62aae4
+
+$canvasTop: 0;
+$canvasLeft: 0;
+$navbarZIndex: 1000;
+$navbarWidth: 100%;
+// $navbarMarginLeft: -22rem;
+$navbarPadding: 10px 20px;
+$navbarBackgroundColor: #F8C8DC;
+$navbarHeight: 80px;
+$brandLogoWidth: 60px;
+$brandLogoHeight: 50px;
+$navbarFontColor: #d5768c;
+$navbarFontWeight: bold;
+$navbarHoverColor: #df2752;
+.para-on{
+    margin-top: 10px;
+    font-size: 25px;
+    margin-left: -440px;
+    z-index: 99999;
+    color:$navbarFontColor;
+    // .para-order{
+    //     margin-left: 90px;
+
+    // }
+    padding-bottom: 10px;
+    margin-right:550px;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+// #canvas {
+//     top: $canvasTop;
+//     left: $canvasLeft;
+//     width: 100%;
+//     height: 100%;
+//     position: fixed;
+//     pointer-events: none;
+// }
+
+.navbar {
+    padding: 10px;
+    position: fixed;
+    z-index: $navbarZIndex;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: $navbarWidth;
+    // margin-left: -22rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $navbarPadding;
+    background-color: $navbarBackgroundColor;
+    height: $navbarHeight;
+   
+}
+.home-login{
+    margin-left: 20px;
+    z-index: 99999;
+}
+.order-nav{
+    margin-left: 20px;
+    display: flex;
+}
+
+.brand-logo {
+    width: $brandLogoWidth;
+    height: $brandLogoHeight;
+    z-index: 99999;
+}
+
+.navbar-menu,
+.navbar-menu-list,
+.navbar-actions-list {
+    flex: 1;
+    display: flex;
+    // justify-content: end;
+    z-index: 99999;
+}
+
+.navbar-menu-list,
+.navbar-actions-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: large;
+    color: $navbarFontColor;
+    font-weight: $navbarFontWeight;
+    z-index: 99999;
+}
+
+.navbar-menu-item:hover {
+    color: $navbarHoverColor;
+}
+
+.navbar-menu-item,
+.navbar-actions-item {
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+// // $canvasTop: 0;
+// // $canvasLeft: 0;
+// $navbarZIndex: 1000;
+// $navbarWidth: 100%;
+// // $navbarMarginLeft: -22rem;
+// $navbarPadding: 10px 20px;
+// $navbarBackgroundColor: #F8C8DC;
+// $navbarHeight: 80px;
+// $brandLogoWidth: 60px;
+// $brandLogoHeight: 50px;
+// $navbarFontColor: #d5768c;
+// $navbarFontWeight: bold;
+// $navbarHoverColor: #df2752;
+// .para-on{
+//     margin-top: 10px;
+//     font-size: 25px;
+//     margin-left: -440px;
+//     z-index: 99999;
+//     color:$navbarFontColor;
+//     // .para-order{
+//     //     margin-left: 90px;
+
+//     // }
+
+// }
+// // body {
+// //     margin: 0;
+// //     padding: 0;
+// // }
+
+// // #canvas {
+// //     top: $canvasTop;
+// //     left: $canvasLeft;
+// //     width: 100%;
+// //     height: 100%;
+// //     position: fixed;
+// //     pointer-events: none;
+// // }
+
+// .navbar {
+//     // padding: 10px;
+//     position: fixed;
+//     z-index: $navbarZIndex;
+//     top: 0;
+//     width: $navbarWidth;
+//     margin-left: -22rem;
+//     display: flex;
+//     margin-bottom: 210rem;
+//     justify-content: space-between;
+//     // align-content: flex-start;
+//     // align-items: center;
+//     // padding: $navbarPadding;
+//     background-color: $navbarBackgroundColor;
+//     height: $navbarHeight;
+   
+// }
+
+// // .home-login{
+// //         margin-left: 20px;
+// //         z-index: 99999;
+// //     }
+// //     .order-nav{
+// //         margin-left: 20px;
+// //         display: flex;
+// //     }
+
+// .brand-logo {
+//     margin-left: 20px;
+//     width: $brandLogoWidth;
+//     height: $brandLogoHeight;
+//     z-index: 99999;
+// }
+
+// .navbar-menu,
+// .navbar-menu-list,
+// .navbar-actions-list {
+//     // flex: 1;
+//     margin-left: -40rem;
+//     display: flex;
+//     justify-content: space-between;
+//     z-index: 99999;
+//     margin-top: -2px;
+// }
+
+// .navbar-menu-list,
+// .navbar-actions-list {
+//     display: flex;
+//     margin: 0;
+//     padding: 0;
+//     list-style: none;
+//     font-size: large;
+//     color: $navbarFontColor;
+//     font-weight: $navbarFontWeight;
+//     z-index: 99999;
+// }
+
+// .navbar-menu-item:hover {
+//     color: $navbarHoverColor;
+// }
+
+// .navbar-menu-item,
+// .navbar-actions-item {
+//     margin: 0 20px;
+//     cursor: pointer;
+// }

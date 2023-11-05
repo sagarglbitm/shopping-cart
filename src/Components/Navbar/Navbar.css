@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#canvas {
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  pointer-events: none;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  /* margin-left: -22rem; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  /* background-color: #62aae4; */
+  height: 65px;
+  
+}
+
+.brand-logo {
+  width: 60px;
+  height: 50px;
+  z-index: 99999;
+}
+
+.navbar-menu {
+  flex: 1;
+  display: flex;
+  z-index: 99999;
+  
+}
+
+.navbar-menu-list,
+.navbar-actions-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: large;
+  color: aliceblue;
+  font-weight: bold;
+  z-index: 99999;
+}
+.navbar-menu-item:hover {
+  color: rgb(78, 29, 201);
+}
+
+.navbar-menu-item,
+.navbar-actions-item {
+  margin: 0 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  $margin-input: 10px;
+  $padding-input: 10px;
+  $width-input: 100%;
+  $height-input: auto;
+  $border-input: none;
+  $border-radius-input: 6px;
+  
+  $text-align-label: left;
+  $margin-label: 5px;
+  $font-size-label: large;
+  $font-weight-label: 500;
+  
+  .input {
+    margin: $margin-input;
+    padding: $padding-input;
+    width: $width-input;
+    height: $height-input;
+    // margin-bottom:15px ;
+    // margin-right: 60px;
+    border: $border-input;
+    // background-color: rgba(204, 185, 185, 0.84);
+    border-radius: $border-radius-input;
+    // transform: translateX(-4%);
+  }
+  
+  .label {
+    text-align: $text-align-label;
+    margin: $margin-label;
+    // margin-left: 10px;
+    // padding-left: 10px;
+    font-size: $font-size-label;
+    font-weight: $font-weight-label;
+  }
+  

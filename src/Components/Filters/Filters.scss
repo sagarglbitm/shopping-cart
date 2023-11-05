@@ -1,0 +1,40 @@
+$containerPadding: 25px;
+$containerBorderColor: #ccc;
+$containerBackgroundColor: #f9f9f9;
+$containerMarginRight: 5rem;
+$containerMarginLeft: -1rem;
+
+$filterSectionMarginBottom: 20px;
+$filterSectionH5FontSize: 1.2rem;
+$filterSectionH5MarginBottom: 10px;
+$filterSectionLabelDisplay: block;
+$filterSectionLabelMarginBottom: 8px;
+$filterSectionInputMarginRight: 5px;
+$filterSectionCursor: pointer;
+
+.filters-container {
+  padding: $containerPadding;
+  border: 1px solid $containerBorderColor;
+  background-color: $containerBackgroundColor;
+  margin-right: $containerMarginRight;
+  margin-left: $containerMarginLeft;
+}
+
+.filter-section {
+  margin-bottom: $filterSectionMarginBottom;
+}
+
+.filter-section h5 {
+  font-size: $filterSectionH5FontSize;
+  margin-bottom: $filterSectionH5MarginBottom;
+}
+
+.filter-section label {
+  display: $filterSectionLabelDisplay;
+  margin-bottom: $filterSectionLabelMarginBottom;
+}
+
+.filter-section input {
+  margin-right: $filterSectionInputMarginRight;
+  cursor: $filterSectionCursor;
+}

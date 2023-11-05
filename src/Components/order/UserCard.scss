@@ -1,0 +1,263 @@
+$primary-color: #ff3f6c;
+$secondary-color: #ff3f6c;
+$background-color: #f3f3f3;
+$text-color: #17294b;
+$placeholder-color: #8c8c8c;
+$border-color: #000000;
+$shadow-color: rgba(0, 0, 0, 0.1);
+
+.details {
+  display: flex;
+  flex-direction: row;
+  font-size: medium;
+}
+
+.user-details-container {
+  background-color: #ffffff;
+}
+.order-p{
+  font-size: medium;
+  
+}
+
+.userDetails, .submitted-address {
+  padding-left: 22px;
+}
+
+.user-card {
+  padding: 20px;
+  margin: 47px;
+  border-radius: 80px;
+  border-color: aqua;
+  flex: 1;
+}
+
+.radio-group {
+  margin-top: 10px;
+  fill: #ff3f6c;
+
+  input[type="radio"] {
+    margin-right: 5px;
+    
+  }
+
+  input[type="radio"]:checked {
+    border-color: pink;
+  }
+
+  label {
+    font-weight: bold;
+    color: #19191a;
+  }
+}
+
+.product-line {
+  border: none;
+  border-top: 1px dashed #f4ecec;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 9px;
+  .order-p{
+    padding-top: 14px;
+    margin-left: 10px;
+  }
+}
+
+.user-details {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px $shadow-color;
+  padding: 20px;
+  margin: 10px;
+  width: 600px;
+}
+
+.image {
+  max-width: 40px;
+  height: auto;
+}
+
+.delivery {
+  display: flex;
+  flex-direction: row;
+  margin-left: -44px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.vertical-line {
+  border-left: 4px solid $border-color;
+  height: 100%;
+  margin-left: 10px;
+}
+
+.formCall {
+  margin-top: 6px;
+}
+
+.cart-card {
+  background-color: #f9f9f9;
+  color: $text-color;
+  padding: 20px;
+  margin-top: 30px;
+  margin-right: 10px;
+  flex: 0.7;
+  border-radius: 8px;
+  
+}
+.order-header{
+  margin-left: -324px;
+// font-weight: bold;
+font-weight: 500;
+}
+.order-product{
+  margin-left: -281px;
+// font-weight: bold;
+font-weight: 500;
+margin-top: 30px;
+}
+.thankyou-message{
+  margin-top:40px;
+  margin-right: 30px;
+  
+  z-index: 99999;
+  background-color: #59cd5d;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  width: 90%;
+  border-radius: 7px;
+}
+
+.header {
+  background-color: #F8C8DC;
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  font-weight: normal;
+  .secureContainer{
+    float: right;
+  }
+  .secure{
+  float: right;
+      letter-spacing: 3px;
+      color: #d5768c;
+      margin: 0 20px 0 0;
+  }
+}
+
+.detai {
+  .submitted-address {
+    margin-bottom: 10px;
+    padding-left: 1px;
+    .radio-group{
+      padding-left: 1px;
+    }
+  }
+
+  form {
+    .form-group {
+      // mar
+      margin-bottom: -6px;
+
+      label {
+        display: block;
+        font-weight: bold;
+        margin-left: 22px;
+      }
+
+      input {
+        width: 80%;
+        padding: 0.75rem;
+        border: none;
+        margin-left: 22px;
+        background-color: #efe5eed6;
+        font-size: 1rem;
+        border-radius: 4px;
+        font-family: "Roboto", sans-serif;
+      }
+    }
+  }
+
+  .form-field {
+    margin-bottom: 1.5rem;
+
+    textarea,
+    input[type="textbox"],
+    input[type="email"] {
+      width: 100%;
+      padding: 0.75rem;
+      border: none;
+      background-color: $background-color;
+      font-size: 1rem;
+      border-radius: 4px;
+      font-family: "Roboto", sans-serif;
+
+      &:focus {
+        outline: none;
+        border-color: $border-color;
+      }
+
+      &::placeholder {
+        color: $placeholder-color;
+      }
+    }
+
+    textarea {
+      min-height: 150px;
+      resize: vertical;
+    }
+  }
+}
+
+.add-address-btn {
+  background-color: $secondary-color;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px ;
+  margin-left: 24px;
+  margin-top: 17px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  
+  &:hover {
+    background-color: #df2752;
+  }
+}
+
+button[type="submit"] {
+  border: none;
+  border-radius: 4px;
+  background-color: $primary-color;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: #df2752;
+  }
+}
+
+
+
+.checkout-footer{
+  border-top: 1px solid #f4ecec;
+  margin: 0 0 10px 0;
+  margin-top: 10px;
+  .footer-icon{
+    margin-left: 70px;
+    display: flex;
+    .pay-images{
+      display: inline-block;
+    }
+    .help{
+      padding-left: 300px;
+    }
+    
+  }
+
+}

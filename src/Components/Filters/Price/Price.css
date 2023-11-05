@@ -1,0 +1,8 @@
+.price-inputs {
+  display: flex;
+  flex-direction: row;
+}
+
+.slider-bar {
+  padding-top: 10px;
+}

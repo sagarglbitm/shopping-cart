@@ -1,0 +1,139 @@
+{
+  "users": [
+    {
+      "name": "Alley",
+      "email": "ayushiagrawal8822@gmail.com",
+      "password": "agrawal8822@A",
+      "mobile": "1243567899",
+      "dob": "2023-10-24",
+      "address": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "zipCode": "",
+        "country": ""
+      },
+      "id": 1
+    },
+    {
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "password": "abc123@A",
+      "mobile": "1243567899",
+      "dob": "2023-10-24",
+      "address": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "zipCode": "",
+        "country": ""
+      },
+      "id": 2
+    },
+    {
+      "name": "Ayushi",
+      "email": "ayushiagrawallll8822@gmail.com",
+      "password": "agrawal8822@A",
+      "mobile": "1234567891",
+      "dob": "2023-10-03",
+      "address": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "zipCode": "",
+        "country": ""
+      },
+      "id": 3
+    },
+    {
+      "name": "sagar",
+      "email": "sagar.jha@hcl.com",
+      "password": "abc123@A",
+      "mobile": "1234567890",
+      "dob": "2023-10-25",
+      "address": {
+        "street": "",
+        "city": "Noida",
+        "state": "Uttar Pradesh",
+        "zipCode": "201303",
+        "country": "India"
+      },
+      "id": 4
+    },
+    {
+      "name": "sagar",
+      "email": "sagar.jha@hcl.com",
+      "password": "abc123@A",
+      "mobile": "1234567890",
+      "dob": "2023-10-11",
+      "address": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "zipCode": "",
+        "country": ""
+      },
+      "id": 5
+    },
+    {
+      "name": "amit",
+      "email": "amit.k@hcl.com",
+      "password": "abc123@A",
+      "mobile": "0513671274",
+      "dob": "2023-10-25",
+      "address": {
+        "street": "C-1/101",
+        "city": "Lotus Pond Apartment,Indirapuram",
+        "state": "",
+        "zipCode": "",
+        "country": "India"
+      },
+      "id": 6
+    },
+    {
+      "name": "shyam",
+      "email": "ayushi88@gmail.com",
+      "password": "ushi88@gA",
+      "mobile": "0136712749",
+      "dob": "2023-10-17",
+      "address": {
+        "street": "C-1/101",
+        "city": "Lotus Pond Apartment,Indirapuram",
+        "state": "",
+        "zipCode": "UP-201014",
+        "country": "India"
+      },
+      "id": 7
+    },
+    {
+      "name": "shyam",
+      "email": "ayushi@gmail.com",
+      "password": "Asdf@123",
+      "mobile": "0513671749",
+      "dob": "2023-10-24",
+      "address": {
+        "street": "C-1/101",
+        "city": "Lotus Pond Apartment,Indirapuram",
+        "state": "",
+        "zipCode": "",
+        "country": "India"
+      },
+      "id": 8
+    },
+    {
+      "name": "shyam",
+      "email": "saad.k@hcl.com",
+      "password": "abc123@A",
+      "mobile": "0513671274",
+      "dob": "2023-10-25",
+      "address": {
+        "street": "C-1/101",
+        "city": "Lotus Pond Apartment,Indirapuram",
+        "state": "Uttar Pradesh",
+        "zipCode": "201301",
+        "country": "India"
+      },
+      "id": 9
+    }
+  ]
+}

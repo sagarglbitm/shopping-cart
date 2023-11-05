@@ -1,0 +1,31 @@
+.filters-container {
+  padding: 25px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  margin-right: 5rem; 
+  margin-left: -1rem;  
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.filter-section h5 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.filter-section label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.filter-section input {
+  margin-right: 5px;
+}
+
+.filter-section input,
+.filter-section label {
+  cursor: pointer;
+}
+
